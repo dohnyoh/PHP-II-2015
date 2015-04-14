@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Northwind - Tableau de bord</title>
+    <title>Northwind - Vide</title>
 
     <?php include('/includes/stylesheets.php') ?>
 </head>
@@ -22,7 +22,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header">Tableau de bord</h1>
+                        <h1 class="page-header">Page Vide</h1>
                         
                         Contenu ici...
                     </div>

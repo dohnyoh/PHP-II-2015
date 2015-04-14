@@ -24,6 +24,7 @@ Ce projet contient une liste de scénarios de redirection fréquemment utilisés
 	* Exemple: un utilisateur non connecté tentant d'accéder à une page sécurisée est redirigé vers une page et affiche un message d'information.
 	* x.php --[lien vers]--> y.php --[redirige vers]--> z.php?message=Mon%20Message
 10. POST --> SESSION --> GET: Connexion dans un système, sauvegarde en session et redirection.
+	* La version HASH utilise des mots de passe cryptés (avec la fonction [password_hash](http://php.net/manual/fr/function.password-hash.php)) et utilise la fonction "[password_verify](http://php.net/manual/fr/function.password-verify.php)" pour faire la comparaison.
 11. GET --> SESSION --> GET: Déconnexion du système, suppression des données de la session et redirection.
 
 ### Northwind

@@ -31,7 +31,6 @@
                                         <label class="control-label col-md-2" for="CategoryName">CategoryName</label>
                                         <div class="col-md-10">
                                             <input class="form-control text-box single-line" data-val="true" data-val-length="The field CategoryName must be a string with a maximum length of 15." data-val-length-max="15" data-val-required="The CategoryName field is required." id="CategoryName" name="CategoryName" type="text" value="">
-                                            <span class="field-validation-valid text-danger" data-valmsg-for="CategoryName" data-valmsg-replace="true"></span>
                                         </div>
                                     </div>
 
@@ -39,7 +38,6 @@
                                         <label class="control-label col-md-2" for="Description">Description</label>
                                         <div class="col-md-10">
                                             <input class="form-control text-box single-line" id="Description" name="Description" type="text" value="">
-                                            <span class="field-validation-valid text-danger" data-valmsg-for="Description" data-valmsg-replace="true"></span>
                                         </div>
                                     </div>
 

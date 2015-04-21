@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Northwind - Liste de vide</title>
+    <title>Northwind - Supplier - Création</title>
     
     <?php include_once('../includes/stylesheets.php'); ?>
 </head>
@@ -25,14 +25,13 @@
                             <div>
                                 <h1 class="page-header">Création de Supplier</h1>
 
-
-                                <form method="post" role="form" novalidate="novalidate">
+                                <form method="post" role="form">
                                     <div class="form-horizontal">
 
                                         <div class="form-group">
                                             <label class="control-label col-md-2" for="CompanyName">CompanyName</label>
                                             <div class="col-md-10">
-                                                <input class="form-control text-box single-line" data-val="true" data-val-length="The field CompanyName must be a string with a maximum length of 40." data-val-length-max="40" data-val-required="The CompanyName field is required." id="CompanyName" name="CompanyName" type="text" value="">
+                                                <input class="form-control text-box single-line" id="CompanyName" name="CompanyName" type="text" value="">
                                             </div>
                                         </div>
 

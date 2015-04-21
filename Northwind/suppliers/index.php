@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Northwind - Liste de vide</title>
+    <title>Northwind - Supplier - Liste</title>
     
     <?php include_once('../includes/stylesheets.php'); ?>
 </head>
@@ -25,7 +25,7 @@
                             <h1 class="page-header">Liste de Supplier</h1>
 
                             <p>
-                                <a href="create.php" class="btn btn-default">Créer un nouveau vide</a>
+                                <a href="create.php" class="btn btn-default">Créer un nouveau Supplier</a>
                             </p>
                             <table class="table table-striped table-bordered table-hover table-with-actions-column">
                                 <thead>

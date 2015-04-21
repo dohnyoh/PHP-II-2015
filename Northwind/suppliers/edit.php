@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Northwind - Liste de vide</title>
+    <title>Northwind - Supplier - Modification</title>
     
     <?php include_once('../includes/stylesheets.php'); ?>
 </head>

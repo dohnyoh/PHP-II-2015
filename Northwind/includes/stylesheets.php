@@ -7,6 +7,14 @@
 <!-- Custom Fonts -->
 <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+<style type="text/css">
+    .table-with-actions-column th:last-child,
+    .table-with-actions-column td:last-child {
+        width:150px; 
+        text-align: center;
+    }
+</style>
+
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>

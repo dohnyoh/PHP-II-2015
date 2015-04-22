@@ -6,3 +6,7 @@
 <script src="/js/metisMenu.min.js"></script>
 <!-- Custom Theme JavaScript -->
 <script src="/js/sb-admin-2.js"></script>
+<!-- jQuery validation -->
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/localization/messages_fr.js"></script>
+<script src="/js/jquery-validate-with-bootstrap.js" type="text/javascript"></script>

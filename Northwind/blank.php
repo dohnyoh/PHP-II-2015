@@ -1,8 +1,7 @@
-<?php include('/includes/global-top.php') ?>
+<?php require_once('/includes/global-top.php') ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,8 +9,8 @@
     <meta name="author" content="">
 
     <title>Northwind - Vide</title>
-
-    <?php include('/includes/stylesheets.php') ?>
+    
+    <?php include_once('/includes/stylesheets.php'); ?>
 </head>
 <body>
     <div id="wrapper">
@@ -36,7 +35,7 @@
     </div>
     <!-- /#wrapper -->
 
-    <?php include('/includes/scripts.php') ?>
+    <?php include_once('/includes/scripts.php') ?>
 </body>
 </html>
-<?php include('/includes/global-bottom.php') ?>
+<?php require_once('/includes/global-bottom.php') ?>

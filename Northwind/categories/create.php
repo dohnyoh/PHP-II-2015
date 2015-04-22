@@ -24,13 +24,13 @@
                         <div>
                             <h1 class="page-header">Création de Category</h1>
 
-                            <form method="post" role="form" novalidate="novalidate">
+                            <form method="post" role="form" id="categoryForm">
                                 <div class="form-horizontal">
 
                                     <div class="form-group">
                                         <label class="control-label col-md-2" for="CategoryName">CategoryName</label>
                                         <div class="col-md-10">
-                                            <input class="form-control text-box single-line" data-val="true" data-val-length="The field CategoryName must be a string with a maximum length of 15." data-val-length-max="15" data-val-required="The CategoryName field is required." id="CategoryName" name="CategoryName" type="text" value="">
+                                            <input class="form-control text-box single-line" id="CategoryName" name="CategoryName" type="text" value="">
                                         </div>
                                     </div>
 
@@ -63,6 +63,7 @@
     <!-- /#wrapper -->
 
     <?php include_once('../includes/scripts.php') ?>
+    <script src="../js/validate-form-category.js"></script>
 </body>
 </html>
 <?php require_once('../includes/global-bottom.php') ?>

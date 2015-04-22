@@ -25,7 +25,7 @@
                         <div>
                             <h1 class="page-header">Modification de Category</h1>
 
-                            <form method="post" role="form" novalidate="novalidate">
+                            <form method="post" role="form" id="categoryForm">
                                 <div class="form-horizontal">
 
                                     <input data-val="true" data-val-number="The field CategoryID must be a number." data-val-required="The CategoryID field is required." id="CategoryID" name="CategoryID" type="hidden" value="1">
@@ -68,6 +68,7 @@
     <!-- /#wrapper -->
 
     <?php include_once('../includes/scripts.php') ?>
+    <script src="../js/validate-form-category.js"></script>
 </body>
 </html>
 <?php require_once('../includes/global-bottom.php') ?>
